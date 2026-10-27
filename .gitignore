@@ -1,11 +1,23 @@
-﻿.venv/
+
+# Python virtual environments
+.venv/
+venv/
 __pycache__/
 *.py[cod]
+
+# Secrets and credentials
 .env
+.env.*
+!.env.example
 *.key
 *.pem
+
+# Large datasets and archives
 *.zip
 ai4i+2020+predictive+maintenance+dataset/
 mvtec_ad/
 mvtec-ad/
 mvtec_anomaly_detection/
+
+# Local experiment artifacts
+.ipynb_checkpoints/
