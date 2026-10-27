@@ -1,0 +1,11 @@
+﻿.venv/
+__pycache__/
+*.py[cod]
+.env
+*.key
+*.pem
+*.zip
+ai4i+2020+predictive+maintenance+dataset/
+mvtec_ad/
+mvtec-ad/
+mvtec_anomaly_detection/
